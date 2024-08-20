@@ -1,1 +1,1 @@
-const teste = document.querySelector("caixa principal");
+const teste = document.querySelector("teste");
