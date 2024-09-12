@@ -1,16 +1,47 @@
-const teste = document.querySelector("teste");
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPergunta = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
-const titulo = document.querySelector(".teste2");
 
-titulo.textContent = "ola mundo";
-
-
-let contador = 1 ;
-
-let contador = [1,2,5,8,9];
-
-let perguntas = {
-
-        []
+let perguntas = [
+    {
+        pergunta1: "texto da pergunta",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+        {
+                pergunta2: "texto da pergunta",
+                alternativas: [
+                    "Alternativa 1",
+                    "Alternativa 2"
+                ]
+            },
         
-}
+             {
+                pergunta3: "texto da pergunta",
+                alternativas: [
+                    "Alternativa 1",
+                    "Alternativa 2"
+                ]
+            },
+             {
+                pergunta4: "texto da pergunta",
+                alternativas: [
+                    "Alternativa 1",
+                    "Alternativa 2"
+                ]
+            },
+        
+        ];
+
+let atual
+
+Let perguntaAtual;
+
+function mostraPergunta()
+
+perguntaAtual perguntas atual;
+caixaPergunta.
